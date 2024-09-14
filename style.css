@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    background-color: #F6F5F0;
+}
+/* header side start */
+.container{
+    width: 80%;
+    margin: 10px auto;
+    background-color: #FFFFFF;
+}
+.container header{
+    padding: 20px;
+    background-color: #102A73;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.heading{
+    width: 70%;
+    float: left;
+    color: white;
+}
+.address{}
+.address a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.image{
+    width: 30%;
+    float: left;
+}
+.image img{
+    width: 100px;
+    height: 120px;
+    float: right;
+    border-radius: 50%;
+}
+/* header side end */
+
+/* main section start */
+.container-2{
+    width: 95%;
+    margin: 0 auto;
+}
+.section-1{
+    padding: 20px 0;
+    text-align: justify;
+}
+.horizontalLine h2{
+    color: #102A73;
+}
+.horizontalLine hr{
+    border: 1px solid black;
+}
+.skills{
+    padding: 10px 20px 10px 200px;
+}
+.WorkHistory{
+    padding: 10px 0;
+}
+.datefix{
+    width: 15%;
+    float: left;
+}
+.skills-1{
+    width: 85%;
+    float: left;
+    padding: 0 0 0 65px;
+}
+/* main section end */
